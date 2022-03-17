@@ -1,0 +1,186 @@
+	*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	 box-sizing: border-box;
+	}
+
+	:root{
+    --color-font-titles:#365385;
+    --color-font-paragraph:#646F58;
+    --yellow-color:#FFAE00;
+    --box-i:#25CED1;
+    --box-color: #2f90d1;
+    --whithe-color:#fff;
+    --bg-footer:#dfecf1;
+	}
+
+	html {
+  font-size: 15px; }
+
+	body{
+	    overflow-x: hidden;
+	    color: var(--color-font-titles);
+	}
+
+	img{
+		position: absolute;
+		/*z-index:*/ /*2*/;
+		background-image: url(img/landingVacunación.png);
+		/**/
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-color: #66999;
+		max-width: 100%;
+	}
+	.encabezado{
+		/*position: absolute;*/
+		/*z-index:*/ /*3*/;
+		/*background-color: rgba(255, 0, 0, 0.75);*/
+		width: 100%;
+	  height: 129px;
+	}
+
+  .logo-vaccination{
+  color: #3454D2;
+  }
+
+  .navbar{
+    width: 100%;
+    height: 129px;
+  }
+
+  .navbar-brand{
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .navbar-collapse{
+  	    margin-left: 13%;
+  }
+
+  .nav-item > .nav-link {
+  	/*background: blueviolet;*/
+  	color: #7E8CA1;
+  	font-size: 1.3em;
+  	font-weight: bold;
+  }
+
+  .btn-group{
+  	width: 132%;
+  }
+
+  .btn-group > .btn-primary {
+  	/*background: blueviolet;*/
+  	background-color: #3959D7;
+  	font-weight: bold;
+  	width: 130%;
+    height: 90%;
+    padding: 11px;
+  }
+
+  #menuprincipal {
+  clear: both; }
+
+  .padding-space{
+    padding: 5rem 4rem;
+  }
+
+  .main-box{
+  	position: relative;
+  }
+
+  #subsection-1{
+  	 height: 600px;
+  }
+
+  #subsection-2{
+    background-image: url(../img/enfermera.png);
+    background-repeat: no-repeat;
+	  background-position: center;
+	  background-size: cover;
+	}
+
+	.size-font-title{
+	    font-size: 3.7rem;
+	}
+
+	.i-color {
+    color: var(--yellow-color);
+	}
+
+	#location-box{
+    background-color:  rgba(255,255,255,0.9);
+    width: 70vw;
+    position: absolute;
+    bottom: 1.3rem;
+	}
+
+	#banner-box{
+		background-image:url(../img/banner.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80vw;
+    height: 20vh;
+	}
+
+	#row-why{
+    height: max-content;
+	}
+
+	.card-sizing{
+    height: 15rem;
+	}
+
+	.card:hover{
+	    box-shadow: 4px 4px 1px 4px rgba(97, 199, 206, 0.2);
+	}
+
+
+	.box-blue{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: rgb(47,144,209);
+		background: linear-gradient(0deg, rgba(47,144,209,1) 1%, rgba(47,144,209,1) 48%, rgba(43,109,221,1) 100%);
+	}
+
+	.att-images{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+	}
+
+	#box-5{
+    height: max-content;
+	}
+
+	#box-6{
+		position: relative;
+	    height: 100vh;
+	}
+
+	.att-bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	}
+
+	footer{
+    height: max-content;
+    background-color: var(--bg-footer)
+	}
+
+	.cl-font{
+    color: var(--color-font-titles);
+    background-color: var(--bg-footer);
+	}
+	
+	/*.......*/
